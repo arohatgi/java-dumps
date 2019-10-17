@@ -1,5 +1,5 @@
 #!/bin/sh
-# Generate N heap dumps of the process PID with an INTERVAL between each dump.
+# Generate N heap dumps of the process PID with an INTERVAL between each dump request.
 
 if [ $# -ne 3 ]; then
    echo Generates Java heap dumps using the jmap command.
